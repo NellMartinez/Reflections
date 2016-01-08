@@ -1,0 +1,49 @@
+Reflection benefits of Git
+How did viewing a diff between two versions
+help you spot the bug?
+
+Well, obviosly I would have a summary of the lines 
+where the code was changed.  Let's say for example that I had
+1,000 lines of code and I only changed 20...
+Divide and conquer technique.
+
+Second, the git terminal won't tell you what the bug was,
+but because your program was working before chances are
+that you did a typo.
+
+Now the rest is up to you, you have to read carefully
+line by line to see what you did wrong.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+This is a no brainer.  I'll reduce the debuggin time.  
+
+
+Reflect: Manual Commits
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros 
+ I will see the big picture as of when to commit so I will manage better my project.
+ I will have better consisstency of best practices.
+
+Cons
+ I will forget to commit because I will be busy working and trying to solve bugs.
+ 
+
+ Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+ Because a website ussually is composed of several files working together.  So if I change a dependency in one file
+ then the other file must be changed as well. Also, I need to commit those changes together, because programmers 
+ usually work together with other people.  Those people can be changing the files as well.
+
+ How can you use the commands git log and git diff to view the history of files?
+ I can see what others developer did.
+ I don't have to disturb other's devvelopers.
+ 
+
+ How might using version control make you more confident to make changes that could break something?
+
+ I'm not confident at all 
+
+ Now that you have your workspace set up, what do you want to try using Git for?
+ To upload my movie trailer project.
